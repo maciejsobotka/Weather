@@ -28,8 +28,8 @@ namespace Weather
     public class Main
     {
         public double temp { get; set; }
-        public int humidity { get; set; }
-        public int pressure { get; set; }
+        public double humidity { get; set; }
+        public double pressure { get; set; }
         public double temp_min { get; set; }
         public double temp_max { get; set; }
     }
@@ -37,7 +37,7 @@ namespace Weather
     {
         public double speed { get; set; }
         public double gust { get; set; }
-        public int deg { get; set; }
+        public double deg { get; set; }
     }
     public class Rain
     {
@@ -57,7 +57,7 @@ namespace Weather
         public Wind Wind { get; set; }
         public Rain Rain { get; set; }
         public Clouds Clouds { get; set; }
-        public int dt { get; set; }
+        public double dt { get; set; }
         public int id { get; set; }
         public string name { get; set; }
         public int cod { get; set; }
